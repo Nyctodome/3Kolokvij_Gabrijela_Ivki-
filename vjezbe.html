@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <title>VJEŽBE</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-image: url('Finalna slika.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.6);
+      background-blend-mode: darken;
+    }
+
+    nav {
+      background-color: rgba(0, 0, 0, 0.7);
+      overflow: hidden;
+      text-align: center;
+    }
+
+    nav a {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 16px 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      background-color: #575757;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 64px;
+      margin: 40px 0 20px 0;
+    }
+
+    h3 {
+      text-align: center;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .row {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 20px 0;
+    }
+
+    .image-wrapper {
+      flex: 1 1 45%;
+      max-width: 45%;
+      padding: 15px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+
+    .image-wrapper img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      display: block;
+    }
+
+    .single {
+      max-width: 90%;
+      margin: 0 auto 40px auto;
+      text-align: center;
+    }
+
+    .single img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .video-container {
+      width: 90%;
+      max-width: 1000px;
+      margin: 0 auto 60px auto;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .video-container iframe {
+      width: 100%;
+      height: 600px;
+      border-radius: 10px;
+    }
+
+    .external-button {
+      display: inline-block;
+      margin: 30px auto 60px auto;
+      padding: 12px 24px;
+      background-color: #ffffff;
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
+
+    .external-button:hover {
+      background-color: #ddd;
+    }
+
+    .center {
+      text-align: center;
+    }
+
+    .description {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 10px 15px;
+      border-radius: 8px;
+      margin-top: 8px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Početna</a>
+    <a href="o_meni.html">O meni</a>
+    <a href="vjezbe.html">Vježbe</a>
+    <a href="video.html">Video</a>
+  </nav>
+
+  <h1>VJEŽBE</h1>
+
+  <div class="row">
+    <div class="image-wrapper">
+      <h3>Vježba1</h3>
+      <img src="Vježba1.jpg" alt="Vježba1">
+      <div class="description">Font</div>
+    </div>
+    <div class="image-wrapper">
+      <h3>Vježba2</h3>
+      <img src="Vježba2.png" alt="Vježba2">
+      <div class="description">Bazierova krivulja</div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="image-wrapper">
+      <h3>Vježba3</h3>
+      <img src="Vježba3.png" alt="Vježba3">
+      <div class="description">Boja i transformacije</div>
+    </div>
+    <div class="image-wrapper">
+      <h3>Vježba4</h3>
+      <img src="Vježba4.png" alt="Vježba4">
+      <div class="description">Gradijenti i transparencija</div>
+    </div>
+  </div>
+
+  <div class="single">
+    <h3>Vježba5</h3>
+    <img src="Vježba5.png" alt="Vježba5">
+    <div class="description">Vektorska grafika</div>
+  </div>
+
+  <div class="row">
+    <div class="image-wrapper">
+      <h3>Vježba6</h3>
+      <img src="Vježba6.jpg" alt="Vježba6">
+      <div class="description">Retuširanje</div>
+    </div>
+    <div class="image-wrapper">
+      <h3>Vježba7</h3>
+      <img src="Vježba7.jpg" alt="Vježba7">
+      <div class="description">Koloriranje</div>
+    </div>
+  </div>
+
+  <div class="single">
+    <h3>Vježba8</h3>
+    <img src="Vježba8.png" alt="Vježba8">
+    <div class="description">Fotomontaža</div>
+  </div>
+
+  <div class="single">
+    <h3>Vježba9</h3>
+    <img src="Finalna slika.jpg" alt="Finalna slika">
+    <div class="description">Piksel grafika</div>
+  </div>
+
+  <div class="single">
+    <h3>Vježba10</h3>
+    <img src="Vježba10.gif" alt="Vježba10">
+    <div class="description">Kinemagraf</div>
+  </div>
+
+  <div class="video-container">
+    <h3>Vježba11</h3>
+    <iframe src="https://www.youtube.com/embed/2detHJjPX8c" frameborder="0" allowfullscreen></iframe>
+    <div class="description">Video obrada</div>
+  </div>
+
+  <div class="center">
+    <h3>Vježba12</h3>
+    <a class="external-button" href="https://nyctodome.github.io/Gabrijela_Ivkic/" target="_blank">Moja web stranica</a>
+    <div class="description">Web stranica u HTML-u</div>
+  </div>
+</body>
+</html>
